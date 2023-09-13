@@ -9,7 +9,7 @@ void draw() {
 }
 void scale(int x, int y) {
   int d = (int)(Math.random()*255)+100;
-  fill(d,0,0);
+  fill(0,d,0);
   stroke(0);
   rect(x,y,10,10);
   ellipse(x,y,40,40);
