@@ -8,8 +8,10 @@ void draw() {
       scale(x,y);
 }
 void scale(int x, int y) {
-  int d = (int)(Math.random()*255)+100;
-  fill(0,d,0);
+  int a = (int)(Math.random()*255)+100;
+  int b = (int)(Math.random()*255)+100;
+  int c = (int)(Math.random()*255)+100;
+  fill(a,b,c);
   stroke(0);
   rect(x,y,10,10);
   ellipse(x,y,40,40);
